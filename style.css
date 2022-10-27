@@ -1,0 +1,285 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+    padding: 10px 0;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+}
+
+.header_logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo_support {
+    margin-left: 5px;
+    font-size: 22px;
+    color: rgb(106, 106, 106);
+}
+
+.header_nav {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    margin: 0 15px;
+}
+
+.header_nav a:hover {
+    color: black;
+}
+
+.header_btn {
+    margin-left: 200px;
+    width: 450px;
+}
+
+.header_btn a {
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.header_btn_one {
+    color: dodgerblue;
+    background: #fff;
+}
+
+.header_btn_one:hover {
+    background: rgb(242, 241, 241);
+}
+
+.header_btn_two {
+    color: #fff;
+    background: dodgerblue;
+}
+
+.header_btn_two:hover {
+    background: rgb(25, 96, 167);
+}
+
+/* Start of a title */
+
+.title {
+    margin-top: 50px;
+}
+
+.title_one {
+    width: 40%;
+    padding: 25px;
+}
+
+.title_one h1 {
+    font-size: 62px;
+}
+
+.title_two {
+    width: 50%;
+}
+
+.title_two video {
+    width: 80%;
+    margin: 10%;
+}
+
+/* Support Section */
+
+.support {
+    background-color: rgb(243, 243, 243);
+    margin-top: 75px;
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.support_box {
+    width: 28%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.support_box h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.support_box p {
+    font-weight: 200;
+}
+
+.support_box_border {
+    border-left: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+.underline {
+    width: 30px;
+    height: 5px;
+    background-color: green;
+}
+
+/* Features */
+
+.features {
+    margin-top: 50px;
+}
+
+.features_img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.features_img img {
+    width: 100%;
+}
+
+.features_content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features_content h2 {
+    font-size: 50px;
+}
+
+.features_content p {
+    color: rgb(126, 126, 126);
+}
+
+.features_buttons {
+    margin-top: 100px;
+}
+
+.features_button {
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+.features_button:hover, .features_button.active {
+    border-bottom: 4px solid dodgerblue;
+}
+
+.features_button a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.features_button a:hover {
+    color: #000;
+}
+
+.features_text {
+    margin-top: 100px;
+    width: 30%;
+    padding: 50px;
+    color: rgb(126, 126, 126);;
+}
+
+.features_video {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.features_video video {
+    width: 80%;
+    margin: 0 10px;
+}
+
+/* Account Section */
+
+.account {
+    margin: 200px 0;
+}
+
+.account_content {
+    width: 40%;
+    margin: auto;
+}
+
+.account_content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.account_content a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-top: 15px;
+}
+
+.account_content .login {
+    color: #fff;
+    background-color: dodgerblue;
+    width: 50%;
+    margin: auto;
+}
+
+.account_content .login:hover {
+    background-color: rgb(15, 98, 181);
+}
+
+/* Footer */
+
+footer {
+    padding: 30px 0;
+    background-color: aliceblue;
+}
+
+footer h3 {
+    font-size: 28px;
+    color: rgb(144, 144, 144);
+}
+
+.footer_nav {
+    padding: 33px 10px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+    margin: 5px 15px;
+}
+
+.footer_nav a:hover {
+    color: #000;
+}
+
+.footer_help {
+    width: 25%;
+    padding: 33px 10px;
+    margin-left: 230px;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+}
+
+.footer_help small {
+    margin-right: 20px;
+}
